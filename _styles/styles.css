@@ -1,3 +1,29 @@
+body{
+font-family:"Helvetica";
+font-size: 1em;
+}
+
 .wrapper{
-background-color: grey
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+}
+
+.wrapper > .left_side {
+display:grid;
+grid-template-rows: 0.8fr 0.2fr;
+}
+
+.headshot{
+height: 300px;
+width: 100%;
+object-fit: contain;
+box-sizing: border-box;
+}
+
+.top_left {
+text-align:center
+}
+
+.top_left .fa{
+    font-size: 36px;
 }
